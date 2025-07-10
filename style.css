@@ -13,7 +13,8 @@ html, body {
 
 .page {
   padding: 40px 20px;
-  min-height: 100vh;
+  max-width: 900px;            /* 限制最大宽度 */
+  margin: 0 auto 0 0;          /* 靠左对齐 */
   background-color: rgba(0, 0, 0, 0.5); /* 半透明黑背景增强可读性 */
   backdrop-filter: brightness(0.9);     /* 稍微提亮内容 */
 }
