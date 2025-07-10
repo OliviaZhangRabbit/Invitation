@@ -7,7 +7,9 @@ html, body {
   background-color: #000;
   background-image: url('background.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: left top;  /* ← 改这里 */
+  background-repeat: no-repeat;   /* ← 可加，防止重复 */
+  /*background-position: center;*/
   line-height: 1.6;
 }
 
