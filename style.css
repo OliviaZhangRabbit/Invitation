@@ -1,32 +1,37 @@
+
 body {
-  margin: 0;
-  font-family: "Noto Serif SC", serif;
-  color: #f5f5f5;
-  background-color: #000;
-  background-image: url('background.jpg');
-  background-size: cover;
-  background-position: center;
-  line-height: 1.6;
+    margin: 0;
+    font-family: "Noto Serif SC", serif;
+    color: #f5f5f5;
+    background-color: #000;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    line-height: 1.6;
 }
 
 .page {
-  padding: 40px 20px;
-  min-height: 100vh;
-  backdrop-filter: brightness(0.6);
+    padding: 40px 20px;
+    min-height: 100vh;
+    backdrop-filter: brightness(0.6);
 }
 
 .cover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .cover h1 {
-  font-size: 2.5rem;
-  color: #ffcc00;
-  text-align: center;
+    font-size: 2.5rem;
+    color: gold;
 }
 
-.page h2, .page h3 {
-  color: #ffcc00;
+.content h2 {
+    color: gold;
+}
+
+.details h3, .form h3 {
+    color: gold;
 }
