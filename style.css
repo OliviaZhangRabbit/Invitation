@@ -1,6 +1,7 @@
 
-body {
+html, body {
   margin: 0;
+  height: 100%;
   font-family: "Noto Serif SC", serif;
   color: #FFD700;
   background-color: #000;
@@ -13,16 +14,15 @@ body {
 .page {
   padding: 40px 20px;
   min-height: 100vh;
-  backdrop-filter: brightness(0.6);
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑背景增强可读性 */
+  backdrop-filter: brightness(0.9);     /* 稍微提亮内容 */
 }
 
-.cover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+h1, h2, h3 {
+  color: #FFD700;
+  margin-top: 0;
 }
 
-.cover h1 {
-  font-size: 2.5rem;
-  text-align: center;
+p {
+  margin: 1em 0;
 }
